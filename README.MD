@@ -2,6 +2,11 @@
 
 A remote component for Zamil's fuel additive system Human Machine Interface (HMI). This component provides real-time monitoring and display of fuel injection parameters and statistics.
 
+
+## Component URL
+```https://spaneng.github.io/fuel-additive-hmi/HMIComponent.js```
+
+
 ## Features
 
 - **Real-time Process Monitoring**: Displays current fuel injection settings and statistics
