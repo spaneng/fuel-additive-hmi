@@ -66,12 +66,12 @@ export default class HMIComponent extends RemoteAccess {
   render() {
     const { volumePerInjection, injectionRateInterval, injector, header } = this.state;
 
-    var injectorVolPerInject = this.getChildState(`injector${this.injectorIndex}VolPerInject`).currentValue;
+    var injectorVolPerInject = parseFloat(this.getChildState(`injector${this.injectorIndex}VolPerInject`).currentValue).toFixed(4);
     var injectorInjectRateInterval = this.getChildState(`injector${this.injectorIndex}InjectRateInterval`).currentValue;
     
-    var injectorLInject = this.getChildState(`injector${this.injectorIndex}LInject`).currentValue;
-    var injectorLTotal = this.getChildState(`injector${this.injectorIndex}LTotal`).currentValue;
-    var injectorLDayTotal = this.getChildState(`injector${this.injectorIndex}LDayTotal`).currentValue;
+    var injectorLInject = parseFloat(this.getChildState(`injector${this.injectorIndex}LInject`).currentValue).toFixed(4);
+    var injectorLTotal = parseFloat(this.getChildState(`injector${this.injectorIndex}LTotal`).currentValue).toFixed(4);
+    var injectorLDayTotal = parseFloat(this.getChildState(`injector${this.injectorIndex}LDayTotal`).currentValue).toFixed(4);
     
     var headerLInject = this.getChildState(`header${this.injectorIndex}LInterval`).currentValue;
     var headerLTotal = this.getChildState(`header${this.injectorIndex}LTotal`).currentValue;
