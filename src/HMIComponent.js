@@ -128,7 +128,7 @@ export default class HMIComponent extends RemoteAccess {
                 <Card variant="outlined">
                   <CardHeader 
                     titleTypographyProps={{ variant: "subtitle2" }} 
-                    title="Injector 1"
+                    title={`Injector ${this.injectorIndex}`}
                     sx={{
                       textAlign: 'center',
                       pb: '5px',
@@ -150,7 +150,7 @@ export default class HMIComponent extends RemoteAccess {
                 <Card variant="outlined">
                 <CardHeader 
                     titleTypographyProps={{ variant: "subtitle2" }} 
-                    title="Header 1"
+                    title={`Header ${this.injectorIndex}`}
                     sx={{
                       textAlign: 'center',
                       pb: '5px',
