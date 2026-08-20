@@ -1,5 +1,5 @@
 import React from 'react';
-import RemoteAccess from 'doover_home/RemoteAccess';
+import RemoteAccess from 'customer_site/RemoteAccess';
 // import { Grid, Button, TextField } from '@mui/material';
 
 // import { ThemeProvider } from '@mui/material/styles';

@@ -1,0 +1,94 @@
+{
+  "id": "HMIComponent",
+  "name": "HMIComponent",
+  "metaData": {
+    "name": "HMIComponent",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "2.0.0",
+      "buildName": "fuel-additive-hmi"
+    },
+    "remoteEntry": {
+      "name": "static/js/HMIComponent.538c7c72.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "HMIComponent",
+    "pluginVersion": "0.21.6",
+    "prefetchInterface": false,
+    "publicPath": "/"
+  },
+  "shared": [
+    {
+      "id": "HMIComponent:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/HMIComponent.538c7c72.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "HMIComponent:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/HMIComponent.538c7c72.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [
+    {
+      "federationContainerName": "customer_site",
+      "moduleName": "RemoteAccess",
+      "alias": "customer_site",
+      "entry": "[window.dooverAdminSite_remoteUrl]"
+    }
+  ],
+  "exposes": [
+    {
+      "id": "HMIComponent:HMIComponent",
+      "name": "HMIComponent",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_HMIComponent.9c933eb5.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./HMIComponent"
+    }
+  ]
+}

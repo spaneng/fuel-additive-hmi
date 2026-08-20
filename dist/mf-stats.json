@@ -1,0 +1,113 @@
+{
+  "id": "HMIComponent",
+  "name": "HMIComponent",
+  "metaData": {
+    "name": "HMIComponent",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "2.0.0",
+      "buildName": "fuel-additive-hmi"
+    },
+    "remoteEntry": {
+      "name": "static/js/HMIComponent.538c7c72.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "HMIComponent",
+    "pluginVersion": "0.21.6",
+    "prefetchInterface": false,
+    "publicPath": "/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react-dom",
+      "version": "18.3.1",
+      "id": "HMIComponent:react-dom",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/HMIComponent.538c7c72.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./HMIComponent"
+      ]
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "eager": true,
+      "name": "react",
+      "version": "18.3.1",
+      "id": "HMIComponent:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "static/js/HMIComponent.538c7c72.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": [
+        "./HMIComponent"
+      ]
+    }
+  ],
+  "remotes": [
+    {
+      "alias": "customer_site",
+      "consumingFederationContainerName": "HMIComponent",
+      "federationContainerName": "customer_site",
+      "moduleName": "RemoteAccess",
+      "usedIn": [
+        "src/HMIComponent.js + 144 modules"
+      ],
+      "version": "[window.dooverAdminSite_remoteUrl]"
+    }
+  ],
+  "exposes": [
+    {
+      "path": "./HMIComponent",
+      "id": "HMIComponent:HMIComponent",
+      "name": "HMIComponent",
+      "requires": [
+        "react",
+        "react-dom"
+      ],
+      "file": "src/HMIComponent",
+      "assets": {
+        "js": {
+          "sync": [
+            "static/js/async/__federation_expose_HMIComponent.9c933eb5.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}
