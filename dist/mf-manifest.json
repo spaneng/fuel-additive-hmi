@@ -9,7 +9,7 @@
       "buildName": "fuel-additive-hmi"
     },
     "remoteEntry": {
-      "name": "static/js/HMIComponent.538c7c72.js",
+      "name": "static/js/HMIComponent.a90864e7.js",
       "path": "",
       "type": "global"
     },
@@ -35,7 +35,7 @@
         "js": {
           "async": [],
           "sync": [
-            "static/js/HMIComponent.538c7c72.js"
+            "static/js/HMIComponent.a90864e7.js"
           ]
         },
         "css": {
@@ -54,7 +54,7 @@
         "js": {
           "async": [],
           "sync": [
-            "static/js/HMIComponent.538c7c72.js"
+            "static/js/HMIComponent.a90864e7.js"
           ]
         },
         "css": {
@@ -79,7 +79,7 @@
       "assets": {
         "js": {
           "sync": [
-            "static/js/async/__federation_expose_HMIComponent.9c933eb5.js"
+            "static/js/async/__federation_expose_HMIComponent.060774b3.js"
           ],
           "async": []
         },

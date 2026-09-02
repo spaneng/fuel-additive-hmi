@@ -39,6 +39,15 @@ export default class HMIComponent extends RemoteAccess {
     this.injectorIndex = this.getInjectorIndex();
   }
 
+  // Display-only widget: we never call dooverInitializeState(), so
+  // getDesiredName() is undefined. The 2.0 customer-site also passes
+  // `pending_ui_state: {}` with no `desired` key, so the base implementation
+  // evaluates undefined[undefined] and throws on every re-render -- which the
+  // host reports as "Remote component has failed to load". render() reads live
+  // values straight from props via getChildState(), so there is nothing to
+  // track here.
+  componentDidUpdate() {}
+
   getInjectorIndex() {
     return this.getUiState().reported.injector_index;
   }
